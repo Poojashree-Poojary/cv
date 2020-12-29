@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- popcorn.html This describes popcorn sales form page-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="resume.css"/>
+    <title> Contact us </title>
+  </head>
+  <body>
+  <div class="header">
+	<a href="#default" class="logo" style="font-weight:bold;font-size:30px">Contact</a>
+	<div class="header-right">
+	<a href="index.html" style="font-size: 25px;  font-weight: bold;  font-style: italic">Home</a>
+    <a href="aboutme.html" style="font-size: 25px;  font-weight: bold;  font-style: italic">About</a>
+    <a href="qualification.html" style="font-size: 25px;  font-weight: bold;  font-style: italic">Qualification</a>
+    <a href="skills.html" style="font-size: 25px;  font-weight: bold;  font-style: italic">Skills</a>
+	<a class="active" href="#contact" style="font-size: 25px;  font-weight: bold;  font-style: italic">Contact</a>
+	</div>
+  </div>
+    <form action="response.html" method="post">
+      <!-- A borderless table of text widgets for name and address -->
+      <fieldset>
+          <legend style="font-size:25px;">Details</legend>
+          <div class="container">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname" style="font-size:20px;">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="name" placeholder="Enter your name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname" style="font-size:20px;">Email address</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+    </div>
+	</div>
+    <div class="row">
+      <div class="col-25">
+        <label for="contact" style="font-size:20px;">Contact</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="phone" name="phone" placeholder="Enter your number" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="query" style="font-size:20px;">Query</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Any query..." style="width:300px"></textarea>
+      </div>
+    </div>
+</div>
+
+      </fieldset>
+      
+      </p><!-- The submit and reset buttons -->
+      <p style="font-size:25px;">
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Clear Form" />
+      </p>
+    </form>
+	<div class="footer">
+		<p style="font-size:20px;color:darkblue">©All Rights Reserved</p>
+	</div>
+
+  </body>
+</html>

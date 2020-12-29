@@ -1,0 +1,100 @@
+div
+{
+
+    border-radius: 5px;
+	color:black;
+
+    }
+h1
+{
+	text-align:center;
+}
+ 
+h3
+{
+    text-decoration: underline;
+    }
+
+table
+{
+    border: 1px dashed black;
+	font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    }
+td, th
+{
+    padding: 2px;
+    border: 1px solid black;
+    }
+
+.header {
+
+  overflow: hidden;
+  background-color:;
+  padding: 10px 10px;
+  
+}
+body{
+	background-image:url('PqHiY57.jpg');
+	background-position:fixed;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align:left;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height:25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family:"Lucida Console", "Courier New", monospace;
+  color:#4d0099;
+}
+
+.header a:hover {
+  background-color:#ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: darkblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-weight:bold;
+   text-align: right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 50%;
+}
